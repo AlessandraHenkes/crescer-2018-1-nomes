@@ -5,3 +5,9 @@ git commit -m "<mensagem>"
 git pull origin <nome da branch>
 git pull origin <nome da branch> --allow-unrelated-histories // para poder resolver os conflitos
 git push
+git log // mostra o histórico de alterações
+git log -<número de alterações>
+git log -<número de alterações> -p // com as demais informações
+git log --stat // resume o histórico
+git log --summary -S "<palavra>" 
+git log --summary -S "palavra" [<caminho do arquivo>] // resultados de um arquivo específico
