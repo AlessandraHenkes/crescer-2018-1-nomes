@@ -1,0 +1,7 @@
+git clone <url do repositório>
+git status
+git add <arquivo(s) ou .>
+git commit -m "<mensagem>"
+git pull origin <nome da branch>
+git pull origin <nome da branch> --allow-unrelated-histories // para poder resolver os conflitos
+git push
